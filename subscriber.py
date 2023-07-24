@@ -5,7 +5,7 @@ import redis
 # Numpy to convert message packet to 2D array of pixels.
 import numpy as np
  
-client = redis.Redis()
+client = redis.Redis(host='127.0.0.1', port=6379)
 # Creating a Pub Sub client to subscribe to some channels.
 client_channel = client.pubsub()
 
