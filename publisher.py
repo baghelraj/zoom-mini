@@ -10,6 +10,7 @@ video = cv2.VideoCapture(0)
 # Resizing parameters
 height = int(video.get(4) / 2)
 width = int(video.get(3) / 2)
+print(height, width)
 
 # Open a Redis connection to be used as publisher
 server = redis.Redis(host='127.0.0.1', port=6379)
