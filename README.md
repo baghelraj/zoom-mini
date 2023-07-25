@@ -8,7 +8,7 @@
 	
 	mkdir projectA
 	cd projectA
-	python11.3 -m venv env
+	python3 -m venv env
 
 #Activate venv
 
